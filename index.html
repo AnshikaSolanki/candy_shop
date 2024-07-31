@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Shop</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="media.css"/>
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Candy Shop</div>
+    <div>
+        <ul class="nav-links">
+        <li><a href="#Products">Products</a></li>
+        <li><a href="#Contacts">Contacts</a></li>
+        <li><a href="#Story">Story</a></li>
+        </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Candy Shop</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+           <span></span>
+           <span></span>
+           <span></span>
+        </div>
+      <div class="menu-links">
+          <li><a href="#Products" onclick="toggleMenu()">Products</a></li>
+          <li><a href="#Contacts" onclick="toggleMenu()">Contacts</a></li>
+          <li><a href="#Story" onclick="toggleMenu()">Story</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="Story">
+    <p class="section__text__p1">Get To Know about Candy Shop</p>
+    <h1 class="title">Story</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/cover.jpeg" alt="Profile picture" class="about-pic">
+        </div>
+        <div class="about-details-container">
+            <div class="text-container">
+                <p>Each pack of Fruittella Jellies explores the weird and wonderful worlds, where fish taste of fruits, and snow-capped icebergs are home to juicy treats.
+                  We are launching two worlds: By the Sea and In the Snow, and there are plans to expand to many more.
+                </p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section id="Products">
+    <p class="section__text__p1">Browse Products</p>
+    <h1 class="title">Products</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/cndy.jpg" alt="Product-1" class="product-img"/>  
+                </div>
+                <h2 class="experience-sub-title project-title">Candies</h2>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/gummmy.png" alt="Product-2" class="product-img"/>  
+                </div>
+                <h2 class="experience-sub-title project-title">Gummies</h2>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/many.jpg" alt="Product-3" class="product-img"/>  
+                </div>
+                <h2 class="experience-sub-title project-title">Others</h2>
+            </div>
+        </div>
+    </div>
+  </section> 
+  <section id="Contacts">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+            <p><a href="mailto:candyshop@gmail.com">Candyshop@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/insta.webp" alt="Insta icon" class="icon contact-icon"/>
+            <p><a href="https://www.Instagram.com/">Instagram</a></p>
+        </div>
+    </div>
+    
+  </section>
+  <footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#Story">Story</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#Contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2024 CANDYSHOP.ALL Rights Reserved</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
